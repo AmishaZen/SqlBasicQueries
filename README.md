@@ -5,14 +5,14 @@ Some basic Sql operations on Product table problem statement.
 
 ## Creation of Table with constraints
 # 1.	Create a table Product as per the following specifications.
-      Attribute	      DataType  	            Size	      Allow Null	            Condition
-      ProductID 	      Auto Increment		                  No	          Primary Key
-      Description	      String	            30	            No	          UNIQUE , NON-CLUSTERED INDEX
-      SetQty	      Integer		                        No	          Either 1, 5 or 10
+      Attribute	      DataType  	        Size	      Allow Null	    Condition
+      ProductID 	      Auto Increment		            No	          Primary Key
+      Description	      String	         30	            No	          UNIQUE , NON-CLUSTERED INDEX
+      SetQty	      Integer		                  No	          Either 1, 5 or 10
                                                                                     (Default value 1)
-      Rate	            e.g.  100.25	      Precision         Yes	          Range (51 – 5000)
-                                                10 and 
-                                                scale 2	
+      Rate	            e.g.  100.25	 Precision        Yes	          Range (51 – 5000)
+                                            10 and 
+                                           scale 2	
 
 
 # 2.	Insert 20 records in the above Product table
